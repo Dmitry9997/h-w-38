@@ -11,7 +11,7 @@ function App() {
       <h1>HomeWork38</h1>
       <Input
         placeholder={"введите текст"}
-        onChenge={(e) => setInputValue(e.target.value)}
+        onChange={(e) => setInputValue(e.target.value)}
       />
       {inputValue && <p>Вы написали: {inputValue}</p>}
       <p>Кликов {clicks}</p>

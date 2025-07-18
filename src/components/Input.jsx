@@ -1,9 +1,9 @@
-export default function Input({ placeholder, onChenge }) {
+export default function Input({ placeholder, onChange }) {
   return (
     <input
       type="text"
       placeholder={placeholder}
-      onChange={onChenge}
+      onChange={onChange}
       style={{
         padding: "8px",
         fontSize: "16px",
